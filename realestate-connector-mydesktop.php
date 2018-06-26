@@ -1,17 +1,17 @@
 <?php
 
 /**
- * @package  KindredrestPlugin
+ * @package  RealestateConnectorMydesktop
  */
 /*
-  Plugin Name: Kindredrest Plugin
-  Plugin URI: http://kindredrest.com/plugin
-  Description: This is my first attempt on writing a custom Plugin for this amazing tutorial series.
+  Plugin Name: Real Estate Connector - MyDesktop
+  Plugin URI: https://smartzweb.com/realestateconnector/
+  Description: WordPress API connection plugin for MyDesktop.com.au real estate listings.
   Version: 1.0.0
-  Author: Alessandro "Kindredrest" Castellani
-  Author URI: http://kindredrest.com
+  Author: Smartzweb
+  Author URI: https://smartzweb.com
   License: GPLv2 or later
-  Text Domain: kindredrest-plugin
+  Text Domain: realestate-connector-mydesktop
  */
 
 /*

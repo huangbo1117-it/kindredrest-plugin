@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @package  KindredrestPlugin
+ * @package  RealestateConnectorMydesktop
  */
 
 namespace Inc\Pages;
@@ -38,8 +38,8 @@ class Dashboard extends BaseController {
     public function setPages() {
         $this->pages = array(
             array(
-                'page_title' => 'Kindredrest Plugin',
-                'menu_title' => 'Kindredrest',
+                'page_title' => 'Real Estate Connector - MyDesktop Plugin',
+                'menu_title' => 'Real Estate Connector - MyDesktop',
                 'capability' => 'manage_options',
                 'menu_slug' => 'kindredrest_plugin',
                 'callback' => array($this->callbacks, 'adminDashboard'),

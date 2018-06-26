@@ -2,7 +2,7 @@
 require_once 'common.php';
 ?>
 <div class="wrap">
-    <h1>Kindredrest Plugin</h1>
+    <h1>Real Estate Connector - MyDesktop</h1>
     <?php
     settings_errors();
 //    echo '<pre>';
@@ -16,7 +16,7 @@ require_once 'common.php';
 
     $plugin_url = plugin_dir_url(dirname(__FILE__, 1));
 //    var_dump($plugin_url);
-    
+
     $key_valid = get_option('kindredrest_key_valid');
     ?>
 
@@ -63,7 +63,7 @@ require_once 'common.php';
                             <td>
                                 <div class="ui-mtext">
                                     <input type="text" id="api_secret" name="kindredrest_plugin[api_secret]" value="<?php echo $option_secret; ?>" class="">
-                                    <label for="api_secret"><div></div></label>        
+                                    <label for="api_secret"><div></div></label>
                                 </div>
                             </td>
                         </tr>
@@ -75,7 +75,7 @@ require_once 'common.php';
                                 </div>
                             </td>
                         </tr>
-                    
+
 <!--                        <tr class="ui-mtext">
                         <th scope="row"><label for="mesmo_id">Activation Code Row ID</label></th>
                         <td>
@@ -89,15 +89,15 @@ require_once 'common.php';
                     <?php
                     if(!$key_valid){
                         echo '<input type="button" name="button" class="button button-primary option_action option_activate" value="Activate Code">';
-                        echo '<a style="margin-left: 20px;" target="_blank" class="button button-primary" href="https://mesmo.co/api_sig/ntest5/index.php" >Buy Code</a>';
-                        
+                         echo '<a style="margin-left: 20px;" target="_blank" class="button button-primary" href="https://mesmo.co/api_sig/ntest5/index.php" >Buy Code</a>';
+//                        echo '<a style="margin-left: 20px;" target="_blank" class="button button-primary" href="http://localhost:88/api_sig/ntest5/index.php" >Buy Code</a>';
                     }else{
                         echo '<label>Activated</label>';
                     }
                     ?>
-                    
-                    
-                </p>       
+
+
+                </p>
             </div>
             <!--<input type="text" id="mesmo_host" name="mesmo_host" value="" class="">-->
         </form>

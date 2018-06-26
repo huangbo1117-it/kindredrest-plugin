@@ -1,1 +1,1 @@
-# Kindredrest api
+# Real Estate Connector - MyDesktop

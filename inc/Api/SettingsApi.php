@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @package  KindredrestPlugin
+ * @package  RealestateConnectorMydesktop
  */
 
 namespace Inc\Api;
