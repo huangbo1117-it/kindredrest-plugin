@@ -1,0 +1,21 @@
+{
+    "name": "kindredrest/kindredrest-plugin",
+    "description": "Awesome starter plugin example",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Kindredrest",
+            "email": "huangbo1117@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "philipbrown/signature-php": "dev-master",
+        "paypal/rest-api-sdk-php": "*"
+    },
+    "secure-http":false,
+    "autoload": {
+        "psr-4": {"Inc\\": "./inc"}
+    }
+}
